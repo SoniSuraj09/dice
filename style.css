@@ -1,0 +1,64 @@
+style.css
+    :root{
+        --clr-neon: pink hs1(317, 100%, 54%) 
+        --clr-bg: black hs1(323,21%,16%);
+
+    }
+    body{
+    
+        background: linear-gradient(to right,#3f6efb,#fc466b);
+        color: var(--clr-neon);
+    }
+    .wrapper{
+        width:60%;
+        margin:auto;
+        text-align:center;
+        
+        
+    }
+    h1{
+        text-align:center;
+        margin:20px;
+        font-size:3rem;
+        color:rgb(208,214,218);
+    }
+    .dice-area{
+        margin: 10px 210px;
+        text-align: center;
+        display: inline-block;
+    }
+    p{
+        font-size: 2.5rem;
+        color: rgb(208,214,218);
+    }
+    img {
+        width: 150px;
+         
+    }
+    .neon-button{
+        font-size: 3.5rem;
+        position: absolute;
+        top: 90%;
+        left: 40%;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--clr-neon);
+        border: var(--clr-neon); 
+        padding: 0.25em lem;
+        border-radius: 0.45em;
+        background: none;
+        text-shadow: 0 0 0.125em;
+    }
+    .refresh{
+        position: absolute;
+        top: 90%;
+        left: 45%;
+        background-color: #3f6efb;
+        color: white;
+        padding: 15px,32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+    }
